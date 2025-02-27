@@ -1,0 +1,21 @@
+{
+  "name": "goascan",
+  "version": "1.0.0",
+  "description": "Scanner de vulnérabilités pour images Docker et fichiers",
+  "main": "cli.js",
+  "bin": {
+    "goascan": "./cli.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": ["security", "scanner", "vulnerability", "docker"],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "commander": "^11.1.0",
+    "chalk": "^4.1.2",
+    "table": "^6.8.1",
+    "dockerode": "^4.0.0"
+  }
+}
